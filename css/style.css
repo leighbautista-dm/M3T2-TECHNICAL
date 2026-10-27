@@ -1,0 +1,89 @@
+:root {
+    --tan: #ffad4e;
+    --main-color: #7f0303;
+    --main-text-color: #EFE8DF;
+    --secondary-text-color: #e3ff42;
+    --midnight-blue: #0F414A;
+
+    --space-extra-small: 2px;
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-large: 24px;
+    --space-xl: 32px;
+
+    --text-small: 14px;
+    --text-normal: 16px;
+    --text-large: 24px;
+    --text-extralarge: 32px;
+    --text-title: 40px;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--main-text-color);
+  font-family: var(--font-family);
+  font-size: var(--text-normal);
+  line-height: 2;
+  padding: var(--space-xl);
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+h1 {
+    font-size: var(--text-title);
+    color: var(--secondary-text-color);
+    margin-top: var(--space-small);
+    margin-bottom: var(--space-extra-small);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: var(--text-extralarge);
+    color: var(--secondary-text-color);
+    margin-top: var(--space-large);
+    margin-bottom: var(--space-extra-small);
+}
+
+h3 {
+    font-size: var(--text-large);
+    color: var(--main-text-color);
+    font-display: block;
+    font-weight: 1000;
+    margin-bottom: var(--space-small);
+    letter-spacing: 3px;
+}
+
+h4 {
+    font-size: var(--text-large);
+    margin-top: var(--space-large);
+    margin-bottom: var(--space-small);
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
+
+h5 {
+    font-size: var(--text-normal);
+    font-weight: 1000;
+    margin-bottom: var(--space-small);
+    letter-spacing: 3px;
+}
+
+p {
+    margin-bottom: var(--space-small);
+    text-align: left;
+}
+
+ul {
+    padding-left: 80px;
+    margin-bottom: var(--space-large);
+}
+
+li {
+    margin-bottom: 1px;
+}
